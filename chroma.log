@@ -1,0 +1,98 @@
+[33mWARNING[0m:  [08-03-2025 23:45:26] chroma_server_nofile is set to 65535, but this is less than current soft limit of 1048576. chroma_server_nofile will not be set.
+[33mWARNING[0m:  [08-03-2025 23:52:24] chroma_server_nofile is set to 65535, but this is less than current soft limit of 1048576. chroma_server_nofile will not be set.
+[32mINFO[0m:     [08-03-2025 23:52:24] Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[36mDEBUG[0m:    [08-03-2025 23:52:24] Starting component System
+[36mDEBUG[0m:    [08-03-2025 23:52:24] Starting component OpenTelemetryClient
+[36mDEBUG[0m:    [08-03-2025 23:52:24] Starting component SqliteDB
+[36mDEBUG[0m:    [08-03-2025 23:52:24] Starting component SimpleQuotaEnforcer
+[36mDEBUG[0m:    [08-03-2025 23:52:24] Starting component Posthog
+[36mDEBUG[0m:    [08-03-2025 23:52:24] Starting component SimpleRateLimitEnforcer
+[36mDEBUG[0m:    [08-03-2025 23:52:24] Starting component LocalSegmentManager
+[36mDEBUG[0m:    [08-03-2025 23:52:24] Starting component LocalExecutor
+[36mDEBUG[0m:    [08-03-2025 23:52:24] Starting component SegmentAPI
+[36mDEBUG[0m:    [08-03-2025 23:52:24] Starting component SimpleAsyncRateLimitEnforcer
+[32mINFO[0m:     [08-03-2025 23:52:24] Started server process [[36m15883[0m]
+[32mINFO[0m:     [08-03-2025 23:52:24] Waiting for application startup.
+[32mINFO[0m:     [08-03-2025 23:52:24] Application startup complete.
+[32mINFO[0m:     [08-03-2025 23:52:24] Uvicorn running on [1mhttp://localhost:8000[0m (Press CTRL+C to quit)
+[32mINFO[0m:     [08-03-2025 23:52:51] 127.0.0.1:54014 - "GET / HTTP/1.1" 404
+[32mINFO[0m:     [08-03-2025 23:52:51] 127.0.0.1:54014 - "GET /favicon.ico HTTP/1.1" 404
+[32mINFO[0m:     [08-03-2025 23:52:56] 127.0.0.1:54256 - "GET /docs HTTP/1.1" 200
+[32mINFO[0m:     [08-03-2025 23:52:57] 127.0.0.1:54256 - "GET /openapi.json HTTP/1.1" 200
+[32mINFO[0m:     [08-03-2025 23:55:21] Shutting down
+[32mINFO[0m:     [08-03-2025 23:55:21] Waiting for application shutdown.
+[36mDEBUG[0m:    [08-03-2025 23:55:21] Stopping component System
+[36mDEBUG[0m:    [08-03-2025 23:55:21] Stopping component SegmentAPI
+[36mDEBUG[0m:    [08-03-2025 23:55:21] Stopping component LocalExecutor
+[36mDEBUG[0m:    [08-03-2025 23:55:21] Stopping component LocalSegmentManager
+[36mDEBUG[0m:    [08-03-2025 23:55:21] Stopping component SimpleAsyncRateLimitEnforcer
+[36mDEBUG[0m:    [08-03-2025 23:55:21] Stopping component SimpleRateLimitEnforcer
+[36mDEBUG[0m:    [08-03-2025 23:55:21] Stopping component Posthog
+[36mDEBUG[0m:    [08-03-2025 23:55:21] Stopping component SimpleQuotaEnforcer
+[36mDEBUG[0m:    [08-03-2025 23:55:21] Stopping component SqliteDB
+[36mDEBUG[0m:    [08-03-2025 23:55:21] Stopping component OpenTelemetryClient
+[32mINFO[0m:     [08-03-2025 23:55:21] Application shutdown complete.
+[32mINFO[0m:     [08-03-2025 23:55:21] Finished server process [[36m15883[0m]
+[33mWARNING[0m:  [08-03-2025 23:55:54] chroma_server_nofile is set to 65535, but this is less than current soft limit of 1048576. chroma_server_nofile will not be set.
+[32mINFO[0m:     [08-03-2025 23:55:54] Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[36mDEBUG[0m:    [08-03-2025 23:55:54] Starting component System
+[36mDEBUG[0m:    [08-03-2025 23:55:54] Starting component OpenTelemetryClient
+[36mDEBUG[0m:    [08-03-2025 23:55:54] Starting component SqliteDB
+[36mDEBUG[0m:    [08-03-2025 23:55:54] Starting component SimpleQuotaEnforcer
+[36mDEBUG[0m:    [08-03-2025 23:55:54] Starting component Posthog
+[36mDEBUG[0m:    [08-03-2025 23:55:54] Starting component SimpleRateLimitEnforcer
+[36mDEBUG[0m:    [08-03-2025 23:55:54] Starting component LocalSegmentManager
+[36mDEBUG[0m:    [08-03-2025 23:55:54] Starting component LocalExecutor
+[36mDEBUG[0m:    [08-03-2025 23:55:54] Starting component SegmentAPI
+[36mDEBUG[0m:    [08-03-2025 23:55:54] Starting component SimpleAsyncRateLimitEnforcer
+[32mINFO[0m:     [08-03-2025 23:55:54] Started server process [[36m17555[0m]
+[32mINFO[0m:     [08-03-2025 23:55:54] Waiting for application startup.
+[32mINFO[0m:     [08-03-2025 23:55:54] Application startup complete.
+[32mINFO[0m:     [08-03-2025 23:55:54] Uvicorn running on [1mhttp://localhost:5000[0m (Press CTRL+C to quit)
+[32mINFO[0m:     [08-03-2025 23:56:06] 127.0.0.1:47188 - "GET /load_chat/ HTTP/1.1" 404
+[32mINFO[0m:     [08-03-2025 23:57:37] 127.0.0.1:60918 - "GET /load_chat/ HTTP/1.1" 404
+[32mINFO[0m:     [08-03-2025 23:57:46] 127.0.0.1:34120 - "GET /load_chat/ HTTP/1.1" 404
+[32mINFO[0m:     [08-03-2025 23:57:46] 127.0.0.1:34130 - "GET /load_chat/ HTTP/1.1" 404
+[32mINFO[0m:     [08-03-2025 23:57:46] 127.0.0.1:34138 - "POST /upload_pdf/ HTTP/1.1" 404
+[32mINFO[0m:     [08-03-2025 23:57:51] 127.0.0.1:38500 - "GET /load_chat/ HTTP/1.1" 404
+[32mINFO[0m:     [08-03-2025 23:57:51] 127.0.0.1:38506 - "POST /save_chat/ HTTP/1.1" 404
+[32mINFO[0m:     [08-03-2025 23:57:58] 127.0.0.1:45124 - "GET /load_chat/ HTTP/1.1" 404
+[32mINFO[0m:     [08-03-2025 23:58:02] 127.0.0.1:45138 - "GET /load_chat/ HTTP/1.1" 404
+[32mINFO[0m:     [08-03-2025 23:58:03] 127.0.0.1:45150 - "POST /chat/ HTTP/1.1" 404
+[32mINFO[0m:     [08-03-2025 23:58:03] 127.0.0.1:45162 - "POST /save_chat/ HTTP/1.1" 404
+[32mINFO[0m:     [08-03-2025 23:58:06] 127.0.0.1:45178 - "GET /load_chat/ HTTP/1.1" 404
+[32mINFO[0m:     [08-03-2025 23:58:06] 127.0.0.1:45190 - "POST /chat/ HTTP/1.1" 404
+[32mINFO[0m:     [08-03-2025 23:58:06] 127.0.0.1:45192 - "POST /save_chat/ HTTP/1.1" 404
+[32mINFO[0m:     [08-03-2025 23:58:11] 127.0.0.1:36572 - "GET /load_chat/ HTTP/1.1" 404
+[32mINFO[0m:     [08-03-2025 23:58:11] 127.0.0.1:36582 - "POST /chat/ HTTP/1.1" 404
+[32mINFO[0m:     [08-03-2025 23:58:11] 127.0.0.1:36590 - "POST /save_chat/ HTTP/1.1" 404
+[32mINFO[0m:     [08-03-2025 23:58:24] 127.0.0.1:40100 - "GET /load_chat/ HTTP/1.1" 404
+[32mINFO[0m:     [08-03-2025 23:58:29] 127.0.0.1:40308 - "GET /load_chat/ HTTP/1.1" 404
+[32mINFO[0m:     [08-03-2025 23:58:29] 127.0.0.1:40314 - "POST /upload_pdf/ HTTP/1.1" 404
+[32mINFO[0m:     [09-03-2025 00:01:11] 127.0.0.1:42206 - "GET /load_chat/ HTTP/1.1" 404
+[32mINFO[0m:     [09-03-2025 00:01:12] 127.0.0.1:42216 - "GET /load_chat/ HTTP/1.1" 404
+[32mINFO[0m:     [09-03-2025 00:01:12] 127.0.0.1:42232 - "POST /save_chat/ HTTP/1.1" 404
+[32mINFO[0m:     [09-03-2025 00:01:14] 127.0.0.1:42242 - "GET /load_chat/ HTTP/1.1" 404
+[32mINFO[0m:     [09-03-2025 00:01:14] 127.0.0.1:42258 - "POST /upload_pdf/ HTTP/1.1" 404
+[32mINFO[0m:     [09-03-2025 00:01:17] 127.0.0.1:60070 - "GET /load_chat/ HTTP/1.1" 404
+[32mINFO[0m:     [09-03-2025 00:01:19] 127.0.0.1:60086 - "GET /load_chat/ HTTP/1.1" 404
+[32mINFO[0m:     [09-03-2025 00:01:19] 127.0.0.1:60090 - "POST /upload_pdf/ HTTP/1.1" 404
+[32mINFO[0m:     [09-03-2025 00:02:47] 127.0.0.1:60336 - "GET /load_chat/ HTTP/1.1" 404
+[32mINFO[0m:     [09-03-2025 00:02:49] 127.0.0.1:60344 - "GET /load_chat/ HTTP/1.1" 404
+[32mINFO[0m:     [09-03-2025 00:02:55] 127.0.0.1:51768 - "GET /load_chat/ HTTP/1.1" 404
+[32mINFO[0m:     [09-03-2025 00:02:55] 127.0.0.1:51782 - "POST /chat/ HTTP/1.1" 404
+[32mINFO[0m:     [09-03-2025 00:02:55] 127.0.0.1:51798 - "POST /save_chat/ HTTP/1.1" 404
+[32mINFO[0m:     [09-03-2025 00:05:10] Shutting down
+[32mINFO[0m:     [09-03-2025 00:05:10] Waiting for application shutdown.
+[36mDEBUG[0m:    [09-03-2025 00:05:10] Stopping component System
+[36mDEBUG[0m:    [09-03-2025 00:05:10] Stopping component SegmentAPI
+[36mDEBUG[0m:    [09-03-2025 00:05:10] Stopping component LocalExecutor
+[36mDEBUG[0m:    [09-03-2025 00:05:10] Stopping component LocalSegmentManager
+[36mDEBUG[0m:    [09-03-2025 00:05:10] Stopping component SimpleAsyncRateLimitEnforcer
+[36mDEBUG[0m:    [09-03-2025 00:05:10] Stopping component SimpleRateLimitEnforcer
+[36mDEBUG[0m:    [09-03-2025 00:05:10] Stopping component Posthog
+[36mDEBUG[0m:    [09-03-2025 00:05:10] Stopping component SimpleQuotaEnforcer
+[36mDEBUG[0m:    [09-03-2025 00:05:10] Stopping component SqliteDB
+[36mDEBUG[0m:    [09-03-2025 00:05:10] Stopping component OpenTelemetryClient
+[32mINFO[0m:     [09-03-2025 00:05:10] Application shutdown complete.
+[32mINFO[0m:     [09-03-2025 00:05:10] Finished server process [[36m17555[0m]
